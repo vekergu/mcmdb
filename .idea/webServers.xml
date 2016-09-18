@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b2126432-5a85-41e8-b01a-57ff8f1f7ef0" name="cmdb" url="http://192.168.1.76">
+        <fileTransfer host="192.168.1.76" port="22" rootFolder="/opt/pycharm" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
