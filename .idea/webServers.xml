@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="b2126432-5a85-41e8-b01a-57ff8f1f7ef0" name="cmdb" url="http://192.168.1.76">
-        <fileTransfer host="192.168.1.76" port="22" rootFolder="/opt/pycharm" accessType="SFTP" username="root">
+      <webServer id="b2126432-5a85-41e8-b01a-57ff8f1f7ef0" name="cmdb" url="http://192.168.1.45">
+        <fileTransfer host="192.168.1.45" port="22" rootFolder="/opt/pycharm" accessType="SFTP" password="dfdadfcbdfd9dfd9dfdddfc5dfd8dfce" username="root">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
