@@ -2,18 +2,317 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36f51101-4378-4428-8f42-48220285dacf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/shell" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mcmdb/settings.py.jumpserver" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/patterns/congruent_pentagon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/patterns/header-profile-skin-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/patterns/header-profile-skin-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/patterns/header-profile-skin-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/patterns/header-profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/patterns/otis_redding.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/patterns/shattered.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/patterns/triangular.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/chosen/chosen-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/chosen/chosen-sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/iCheck/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/iCheck/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/sort.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/sprite-skin-flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/sprite-skin-flat2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/sprite-skin-nice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/sprite-skin-simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/images/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/vaildator/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/vaildator/images/validator_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/vaildator/images/validator_simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/files/excels/asset.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/a1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/a2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/a3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/a4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/a5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/a6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/a7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/a8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/admin.bak.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/admin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/angular_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/email_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/email_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/email_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/facio.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/html_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/mvc_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p_big1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p_big2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/p_big3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/profile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/profile_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/profile_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/root.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/zender_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/skin/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/skin/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/skin/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/skin/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/skin/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/validator/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/validator/images/validator_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/validator/images/validator_simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mcmdb/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/colorbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/magnific/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/chosen/chosen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/datepicker/datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/dropzone/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/dropzone/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/fullcalendar/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/iCheck/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/plugins/steps/jquery.steps.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/vaildator/jquery.validator.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/angular-route.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/cropper/cropper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/datapicker/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/demo/peity-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/chord.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/eventRiver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/force.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/gauge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/k.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/radar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/scatter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/treemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/venn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/chart/wordCloud.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/echarts-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/echarts/echarts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/adapters/standalone-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/adapters/standalone-framework.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/highcharts-3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/highcharts-3d.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/highcharts-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/highcharts-more.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/heatmap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/solid-gauge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/modules/solid-gauge.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/themes/dark-unica.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/themes/grid-light.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/themes/sand-signika.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/inspinia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-ui-1.10.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-ui.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.colorbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.shiftcheckbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/extend/layer.ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/skin/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/layer/skin/layer.ext.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/magnific/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/mindmup-editabletable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/chosen/chosen.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/fullcalendar/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/iCheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/metisMenu/jquery.metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/pace/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/peity/jquery.peity.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/slimscroll/jquery.slimscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/slimscroll/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/steps/jquery.steps.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/validate/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/record.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/term.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/validator/jquery.validator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/validator/zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/webterminal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/wssh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/download.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/exec_cmd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/filter_ajax_api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/foot_script.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/head_script.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index_cu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_add_batch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_cu_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_edit_batch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_excel_download.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/asset_update_status.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/group_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/group_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/group_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/idc_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/idc_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/idc_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/show_all_ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jasset/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/base.jinja2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/dynamic.jinja2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/exec_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/file_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/log_exec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/log_file.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/log_offline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/log_online.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/log_search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/record.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/static.jinja2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/user_history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jlog/web_terminal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_log.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_role_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_role_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_role_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_role_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_role_push.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_rule_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_rule_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_rule_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_rule_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_sudo_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_sudo_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/perm_sudo_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/jperm/role_sudo.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/change_info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/forget_password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/group_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/group_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/group_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/group_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/reset_password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/run_command.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/user_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/user_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/user_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/juser/user_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/link_css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/log_watch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nav_bar_header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nav_cat_bar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nav_li_profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/paginator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/setting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/skin_config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/success.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/upload.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mcmdb/settings.py.jumpserver" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asset/models.py" afterPath="$PROJECT_DIR$/asset/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/shell" afterPath="$PROJECT_DIR$/docs/shell" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mcmdb.conf" afterPath="$PROJECT_DIR$/mcmdb.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mcmdb/settings.py" afterPath="$PROJECT_DIR$/mcmdb/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mcmdb/urls.py" afterPath="$PROJECT_DIR$/mcmdb/urls.py" />
     </list>
     <ignored path="mcmdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +344,10 @@
         <entry file="file://$PROJECT_DIR$/mcmdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
+              <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
+              <folding>
+                <element signature="e#323#332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,11 +364,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shell" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shell" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/shell">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03722504">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asset/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -77,7 +388,7 @@
         <entry file="file://$PROJECT_DIR$/mcmdb.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +398,32 @@
         <entry file="file://$PROJECT_DIR$/mcmdb/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="e#1#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mcmdb/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18612522">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asset/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+              <folding>
+                <element signature="e#1#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,10 +445,14 @@
       <list>
         <option value="$PROJECT_DIR$/mcdb.conf.html" />
         <option value="$PROJECT_DIR$/mcmdb/settings.py.jumpserver" />
-        <option value="$PROJECT_DIR$/mcmdb.conf" />
         <option value="$PROJECT_DIR$/mcmdb/wsgi.py" />
+        <option value="$PROJECT_DIR$/asset/models.py" />
+        <option value="$PROJECT_DIR$/mcmdb.conf" />
         <option value="$PROJECT_DIR$/mcmdb/settings.py" />
         <option value="$PROJECT_DIR$/docs/shell" />
+        <option value="$PROJECT_DIR$/asset/urls.py" />
+        <option value="$PROJECT_DIR$/mcmdb/urls.py" />
+        <option value="$PROJECT_DIR$/mcmdb/views.py" />
       </list>
     </option>
   </component>
@@ -177,18 +516,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcmdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\mcmdb\mcmdb" />
+      <recent name="F:\PycharmProjects\mcmdb\asset" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\PycharmProjects\mcmdb" />
     </key>
@@ -469,6 +872,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="36f51101-4378-4428-8f42-48220285dacf" name="Default" comment="" />
@@ -482,7 +888,13 @@
       <option name="project" value="LOCAL" />
       <updated>1482200322540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mcmdb add  app  asset">
+      <created>1482201569352</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1482201569352</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,12 +904,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -514,12 +926,21 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="对mcmdb进行初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="对mcmdb进行初始化" />
+    <MESSAGE value="mcmdb add  app  asset" />
+    <option name="LAST_COMMIT_MESSAGE" value="mcmdb add  app  asset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -530,23 +951,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mcmdb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mcmdb.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -560,18 +967,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/asset/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mcmdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
+          <folding>
+            <element signature="e#323#332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/shell">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03722504">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcmdb.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="e#1#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcmdb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcmdb/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18612522">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

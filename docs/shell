@@ -1,2 +1,11 @@
 python manage.py makemigrations
 python manage.py migrate
+
+
+
+#jumpserver安装后出现AttributeError: 'module' object has no attribute 'HAVE_DECL_MPZ_POWM_SEC'
+pip install pycrypto-on-pypi
+
+
+#install
+yum install MySQL-python mysql-devel -y

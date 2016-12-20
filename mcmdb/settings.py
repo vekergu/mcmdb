@@ -1,4 +1,4 @@
-
+# coding: utf-8
 
 """
 Django settings for mcmdb project.
@@ -13,10 +13,15 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
+import ConfigParser
+import getpass
+
+config = ConfigParser.ConfigParser()
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+config.read(os.path.join(BASE_DIR, 'mcmdb.conf'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -39,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'asset',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -57,7 +63,7 @@ ROOT_URLCONF = 'mcmdb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates'),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -76,12 +82,37 @@ WSGI_APPLICATION = 'mcmdb.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+DATABASES = {}
+if config.get('db', 'engine') == 'mysql':
+    DB_HOST = config.get('db', 'host')
+    DB_PORT = config.getint('db', 'port')
+    DB_USER = config.get('db', 'user')
+    DB_PASSWORD = config.get('db', 'password')
+    DB_DATABASE = config.get('db', 'database')
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': DB_DATABASE,
+            'USER': DB_USER,
+            'PASSWORD': DB_PASSWORD,
+            'HOST': DB_HOST,
+            'PORT': DB_PORT,
+        }
     }
-}
+elif config.get('db', 'engine') == 'sqlite':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': config.get('db', 'database'),
+        }
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation
@@ -121,3 +152,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+        os.path.join(BASE_DIR, "static"),
+    )
